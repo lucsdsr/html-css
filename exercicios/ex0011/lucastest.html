@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando comando Picture</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
+    <h1>testando meu site com imagem dimensionada</h1>
+    <h2>teste</h2>
+        <p>Esse paragrafo foi desenvolvido para fazer o teste da imagem redimencionada para tamanhos diferentes de tela usando a tag <strong>picture + source type</strong>
+         <p><a href="intex.html" rel="prev">clicando aqui</a> voce pode ir para meu primeiro feito</p>
+         <audio controls preload="metadata">
+            <source src="midia/audio1.mp3" type="audio/mpeg">
+         </audio>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem1">
+    </picture>
+</body>
+</html>

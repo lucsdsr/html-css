@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 2 Pseudo-Classes</title>
+    <style>
+        body{
+            background-color: rgb(236, 184, 116);
+        }
+        h1{
+            font-size: 3em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p{
+            font-size: 1.5em;
+            background-color: aquamarine;
+            width: 450px;
+        }
+        div:hover{
+            color: red;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste 1 Pseudo-Classes</h1>
+         <div>
+            Passe o mouse para ver 
+            <p>Aqui voce consegue enxergar o texto invisivel</p>
+         </div>
+    
+</body>
+</html>
